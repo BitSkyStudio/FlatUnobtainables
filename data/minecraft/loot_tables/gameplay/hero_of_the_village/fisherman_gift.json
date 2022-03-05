@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:gift",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:heart_of_the_sea"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 100,
+            "name": "minecraft:salmon"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 100,
+            "name": "minecraft:cod"
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 2,
+          "max": 7
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 7,
+            "name": "minecraft:prismarine_shard"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:prismarine_crystals"
+          }
+        ]
+      }
+    ]
+  }
+  

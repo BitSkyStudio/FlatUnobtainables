@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:drowned,nbt={HandItems:[{id:"minecraft:diamond_sword"}]}] run data modify entity @s HandItems[0].id set value "minecraft:trident"

@@ -1,0 +1,90 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:alternatives",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:sponge",
+                "conditions": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "offsetX": 0,
+                    "offsetY": 1,
+                    "offsetZ": 0,
+                    "predicate": {
+                      "block": {
+                        "blocks": [
+                          "minecraft:lava"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "offsetX": 1,
+                    "offsetY": 0,
+                    "offsetZ": 0,
+                    "predicate": {
+                      "block": {
+                        "blocks": [
+                          "minecraft:lava"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "offsetX": -1,
+                    "offsetY": 0,
+                    "offsetZ": 0,
+                    "predicate": {
+                      "block": {
+                        "blocks": [
+                          "minecraft:lava"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "offsetX": 0,
+                    "offsetY": 0,
+                    "offsetZ": 1,
+                    "predicate": {
+                      "block": {
+                        "blocks": [
+                          "minecraft:lava"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "offsetX": 0,
+                    "offsetY": 0,
+                    "offsetZ": -1,
+                    "predicate": {
+                      "block": {
+                        "blocks": [
+                          "minecraft:lava"
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:end_stone"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

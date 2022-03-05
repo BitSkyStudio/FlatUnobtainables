@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BA",
+        "AB"
+    ],
+    "key": {
+        "B": {
+            "item": "minecraft:cobblestone"
+        },
+        "A": {
+            "item": "minecraft:andesite"
+        }
+    },
+    "result": {
+        "item": "minecraft:tuff",
+        "count": 4
+    }
+}
