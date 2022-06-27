@@ -29,5 +29,5 @@ execute as @e[type=sheep,distance=..5] run tp @s ~ -500 ~
 execute as @e[type=endermite,distance=..5] positioned as @s run summon rabbit ~ ~ ~
 execute as @e[type=endermite,distance=..5] run tp @s ~ -500 ~
 #sculk shrieker
-execute as @e[type=minecraft:lightning_bolt] positioned as @s if block ~ ~-2 ~ minecraft:sculk_shrieker[can_summon=false] run setblock ~ ~-2 ~ minecraft:sculk_shrieker[can_summon=true]
-execute as @e[type=minecraft:lightning_bolt] positioned as @s if block ~ ~-1 ~ minecraft:sculk_shrieker[can_summon=false] run setblock ~ ~-1 ~ minecraft:sculk_shrieker[can_summon=true]
+execute if block ~ ~-2 ~ minecraft:sculk_shrieker[can_summon=false] run setblock ~ ~-2 ~ minecraft:sculk_shrieker[can_summon=true]
+execute if block ~ ~-1 ~ minecraft:sculk_shrieker[can_summon=false] run setblock ~ ~-1 ~ minecraft:sculk_shrieker[can_summon=true]
