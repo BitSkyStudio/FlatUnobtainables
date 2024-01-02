@@ -44,7 +44,7 @@
     "misc": []
   },
   "spawn_costs": {},
-  "precipitation": "none",
+  "has_precipitation": false,
   "temperature": 0.5,
   "downfall": 0.5,
   "category": "the_end"
