@@ -4,7 +4,7 @@ Minecraft datapack reintroducing unobtainable items, blocks and entities back in
 
 feature list: https://docs.google.com/document/d/1kDePxFsGdQMzFFQmNZgUuY4iWK_eiS_NeqKT9ppP9wU/edit?usp=sharing
 
-download from curseforge: https://www.curseforge.com/minecraft/mc-addons/flat-unobtainables (the file appears to be gone now)
+~~download from curseforge: https://www.curseforge.com/minecraft/mc-addons/flat-unobtainables~~ (the file appears to be gone now)
 
 # Update to Latest version of Minecraft
 
@@ -57,5 +57,6 @@ Entities:
 * Rabbit - Strike lightning within 5 blocks of endermite (and die easily)
 * Axolotl - Strike lightning within 3 blocks of squid (actually not that weak)
 
-# Important for Wardens
-The Sculk Shriekers placed by players dont normally spawn wardens. Strike lightning 1 or 2 blocks above a placed Sculk Shrieker to activate it and allow it to spawn wardens
+>[!IMPORTANT]
+> ## Important for Wardens
+> The Sculk Shriekers placed by players dont normally spawn wardens. Strike lightning 1 or 2 blocks above a placed Sculk Shrieker to activate it and allow it to spawn wardens
